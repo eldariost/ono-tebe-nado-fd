@@ -1,1 +1,391 @@
-/* место для вашего кода */
+header {
+    padding-top: 95px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.header-links-list {
+    display: flex;
+    gap: 30px;
+    list-style: circle;
+    padding: 0;
+    justify-content: center;
+}
+
+.header-links-list-main {
+  list-style: none; /* Убирает маркер у первого элемента списка */
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  width: 130px;
+  height: 110px;
+}
+
+.address {
+  display: flex;
+  font-family: Raleway, sans-serif;
+  flex-direction: column;
+  max-width: 236.49px;
+  justify-self: end;
+  align-items: flex-start;
+}
+
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/cover.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    min-height: 757px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    text-transform: uppercase;
+    font-size: 50px;
+    align-content: center;
+  }
+
+  .cover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Цвет и прозрачность оверлея */
+}
+
+.cover-title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  letter-spacing: 30px;
+  color: #FFFFFF;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.ono {
+  text-align: left;
+}
+
+.tebe {
+  text-align: center;
+}
+
+.nado {
+  text-align: right;
+}
+
+.description {
+  display: flex;
+  color: #FFFFFF;
+  font-size: 22px;
+  word-spacing: 18px;
+  gap: 180px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.cover-description-text {
+  display: flex;
+  align-items: center;
+}
+
+.cover-description-button {
+  padding: 10px;
+  align-self: center;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF; /* толщиной 2px  сплошная граница кнопки  белого цвета */
+  
+}
+
+
+.lots {
+    margin: 180px 24px 60px 24px;
+    padding-bottom: 53px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lots-heading {
+  margin-bottom: 25px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.lots-card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.left-lot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 334px;
+  min-height: 596px;
+  background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/card-lot-01.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 48px 40px;
+}
+
+.left-card-title {
+  color: #FFFFFF;
+  text-decoration: underline;
+  z-index: 1000;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: auto;
+}
+
+.left-lot-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Цвет и прозрачность оверлея */
+  z-index: 999;
+}
+
+.left-card-link {
+  height: 100%;
+  text-decoration: none;
+}
+
+.left-card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.left-card-text {
+  font-size: 20px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1000;
+}
+
+.center-lot {
+  list-style: none;
+  width: 334px;
+  min-height: 596px;
+  background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/card-lot-02.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 48px 40px;
+}
+
+.center-lot-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Цвет и прозрачность оверлея */
+}
+
+.center-card-link {
+  height: 100%;
+  text-decoration: none;
+}
+
+.center-card-title {
+  color: #FFFFFF;
+  text-decoration: underline;
+  z-index: 1000;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: auto;
+}
+
+.center-card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.center-card-text {
+  font-size: 20px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1000;
+}
+
+.right-lot {
+  list-style: none;
+  width: 334px;
+  min-height: 596px;
+  background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/card-lot-03.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 48px 40px;
+}
+
+.right-lot-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Цвет и прозрачность оверлея */
+}
+
+.right-card-link {
+  height: 100%;
+  text-decoration: none;
+}
+
+.right-card-title {
+  color: #FFFFFF;
+  text-decoration: underline;
+  z-index: 1000;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: auto;
+}
+
+.right-card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.right-card-text {
+  font-size: 20px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1000;
+}
+
+
+.lots-look-more-link {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+
+.about {
+    margin: 60px 24px 180px 24px;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: [left] 334px [right] 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+
+.left-about-column {
+  display: flex;
+  justify-content: center;
+}
+
+.about-logo {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  border-radius: 50%; /* Делает контейнер круглым */
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-logo-image {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.right-about-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 24px;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Разделяет подвал на три равные колонки */
+  grid-template-rows: auto;
+  justify-content: baseline;
+  margin-bottom: 80px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.footer-yt-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.footer-vk-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.footer-pinterest-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.footer .address {
+  justify-self: start;
+  padding-left: 30px;
+}
