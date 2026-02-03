@@ -351,6 +351,11 @@ header {
   margin-bottom: 80px;
 }
 
+.footer .address {
+  justify-self: start;
+  padding-left: 30px;
+}
+
 .footer-menu {
   display: flex;
   justify-content: center;
@@ -383,9 +388,4 @@ header {
 .footer-pinterest-icon {
   width: 48px;
   height: 48px;
-}
-
-.footer .address {
-  justify-self: start;
-  padding-left: 30px;
 }
