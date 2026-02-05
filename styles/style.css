@@ -26,6 +26,16 @@ header {
   text-decoration: none;
 }
 
+.header-links-list-lots {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.header-links-list-about {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .logo {
   display: block;
   width: 130px;
@@ -50,7 +60,7 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
-    background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/cover.jpg');
+    background: url('images/cover.jpg');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -79,6 +89,7 @@ header {
   color: #FFFFFF;
   gap: 20px;
   z-index: 1000;
+  padding-bottom: 45px;
 }
 
 .ono {
@@ -87,18 +98,20 @@ header {
 
 .tebe {
   text-align: center;
+  padding-right: 15px;
 }
 
 .nado {
   text-align: right;
+  padding-right: 20px;
 }
 
 .description {
   display: flex;
   color: #FFFFFF;
   font-size: 22px;
-  word-spacing: 18px;
-  gap: 180px;
+  word-spacing: 20px;
+  gap: 110px;
   position: absolute;
   bottom: 50px;
 }
@@ -109,8 +122,11 @@ header {
 }
 
 .cover-description-button {
-  padding: 10px;
-  align-self: center;
+  padding: 12px 35px 12px 30px;
+  text-transform: uppercase;
+  max-width: max-content;
+  font-size: 22px;
+  
   background-color: transparent;
   color: #FFFFFF;
   border: 2px solid #FFFFFF; /* толщиной 2px  сплошная граница кнопки  белого цвета */
@@ -129,6 +145,7 @@ header {
   margin-bottom: 25px;
   margin-left: 40px;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots-card-list {
@@ -146,7 +163,7 @@ header {
   justify-content: center;
   width: 334px;
   min-height: 596px;
-  background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/card-lot-01.jpg');
+  background: url('images/card-lot-01.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -154,8 +171,10 @@ header {
 }
 
 .left-card-title {
-  color: #FFFFFF;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  color: #FFFFFF;
   z-index: 1000;
   position: relative;
   text-transform: uppercase;
@@ -195,7 +214,7 @@ header {
   list-style: none;
   width: 334px;
   min-height: 596px;
-  background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/card-lot-02.jpg');
+  background: url('images/card-lot-02.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -217,8 +236,10 @@ header {
 }
 
 .center-card-title {
-  color: #FFFFFF;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  color: #FFFFFF;
   z-index: 1000;
   position: relative;
   text-transform: uppercase;
@@ -243,7 +264,7 @@ header {
   list-style: none;
   width: 334px;
   min-height: 596px;
-  background: url('C:/Users/eldar/dev/ono-tebe-nado-fd/images/card-lot-03.jpg');
+  background: url('images/card-lot-03.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -265,8 +286,11 @@ header {
 }
 
 .right-card-title {
-  color: #FFFFFF;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  color: #FFFFFF;
+  border-width:unset;
   z-index: 1000;
   position: relative;
   text-transform: uppercase;
@@ -291,15 +315,19 @@ header {
 .lots-look-more-link {
   font-size: 20px;
   margin-left: 40px;
+  max-width: max-content;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 
 .about {
-    margin: 60px 24px 180px 24px;
+    margin: 65px 24px 185px 24px;
     padding-top: 35px;
     display: grid;
     grid-template-columns: [left] 334px [right] 1fr;
-    gap: 30px;
+    gap: 25px;
     justify-content: center;
 }
 
@@ -319,8 +347,8 @@ header {
 }
 
 .about-logo-image {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 61%;
+  max-height: 61%;
 }
 
 .right-about-column {
@@ -339,6 +367,7 @@ header {
   display: flex;
   flex-direction: column;
   font-size: 20px;
+  max-width: 690px;
   gap: 24px;
 }
 
@@ -347,13 +376,14 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Разделяет подвал на три равные колонки */
   grid-template-rows: auto;
-  justify-content: baseline;
   margin-bottom: 80px;
+  padding-left: 20px;
 }
 
 .footer .address {
   justify-self: start;
   padding-left: 30px;
+  max-width: 270px;
 }
 
 .footer-menu {
@@ -373,6 +403,18 @@ header {
   display: flex;
   gap: 48px;
   justify-content: center;
+}
+
+.footer-menu-list-lots {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.footer-menu-list-about {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .footer-yt-icon {
