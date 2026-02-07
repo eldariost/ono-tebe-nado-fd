@@ -1,6 +1,7 @@
 header {
-    padding-top: 95px;
+    padding-top: 79px;
     padding-right: 50px;
+    padding-left: 20px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -9,15 +10,17 @@ header {
 
 .header-menu {
     display: flex;
-    gap: 30px;
     justify-content: center;
+    font-size: 19px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
 .header-links-list {
     display: flex;
-    gap: 30px;
+    gap: 28px;
     list-style: circle;
-    padding: 0;
+    padding-left: 15px;
     justify-content: center;
 }
 
@@ -38,17 +41,36 @@ header {
 
 .logo {
   display: block;
-  width: 130px;
-  height: 110px;
+  width: 140px;
+  height: 120px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .address {
   display: flex;
   font-family: Raleway, sans-serif;
+  font-style: normal;
+  list-style: none;
   flex-direction: column;
   max-width: 236.49px;
   justify-self: end;
   align-items: flex-start;
+  row-gap: 4px;
+}
+
+.address-telephone {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.address-email {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.header .address {
+  
 }
 
 
@@ -57,15 +79,15 @@ header {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    padding-top: 50px;
+    padding-top: 52px;
     padding-bottom: 50px;
     padding-left: 50px;
-    background: url('images/cover.jpg');
+    background: url('../images/cover.jpg');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
     min-height: 757px;
-    margin-top: 90px;
+    margin-top: 84px;
     margin-bottom: 120px;
     text-transform: uppercase;
     font-size: 50px;
@@ -110,8 +132,8 @@ header {
   display: flex;
   color: #FFFFFF;
   font-size: 22px;
-  word-spacing: 20px;
-  gap: 110px;
+  word-spacing: 19px;
+  gap: 104px;
   position: absolute;
   bottom: 50px;
 }
@@ -135,7 +157,7 @@ header {
 
 
 .lots {
-    margin: 180px 24px 60px 24px;
+    margin: 182px 24px 60px 24px;
     padding-bottom: 53px;
     display: flex;
     flex-direction: column;
@@ -163,7 +185,7 @@ header {
   justify-content: center;
   width: 334px;
   min-height: 596px;
-  background: url('images/card-lot-01.jpg');
+  background: url('../images/card-lot-01.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -214,7 +236,7 @@ header {
   list-style: none;
   width: 334px;
   min-height: 596px;
-  background: url('images/card-lot-02.jpg');
+  background: url('../images/card-lot-02.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -264,7 +286,7 @@ header {
   list-style: none;
   width: 334px;
   min-height: 596px;
-  background: url('images/card-lot-03.jpg');
+  background: url('../images/card-lot-03.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -396,13 +418,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.footer-social-list {
-  list-style: none;
-  display: flex;
-  gap: 48px;
-  justify-content: center;
+  padding-right: 15px;
 }
 
 .footer-menu-list-lots {
@@ -415,6 +431,14 @@ header {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+.footer-social-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  padding-left: 23px;
 }
 
 .footer-yt-icon {
