@@ -29,9 +29,13 @@ header {
   text-underline-offset: 3px;
 }
 
-.header-link-active-item {
+.header-links-list-item-no-bullit {
   list-style: none; /* Убирает маркер у первого элемента списка */
-  text-decoration: none; /* Убирает подчеркивание у первого элемента списка */
+}
+
+.header-link-active-item {
+
+  text-decoration: none; /* Убирает подчеркивание у активного элемента списка */
 }
 
 .logo {
@@ -319,13 +323,7 @@ header {
   padding-right: 15px;
 }
 
-.footer-menu-list-lots {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-}
-
-.footer-menu-list-about {
+.footer-menu-list-item {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
